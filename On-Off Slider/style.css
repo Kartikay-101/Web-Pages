@@ -15,21 +15,12 @@
     /*#btn:checked + label .thumb*/
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient(circle at 50% 0%, #55555d, #141414);
-}
 
 .content {
-    position: relative;
-    width: calc(var(--sz) * 5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(var(--sz) * 4.5);
     height: calc(var(--sz) * 3);
     display: flex;
     align-items: center;
